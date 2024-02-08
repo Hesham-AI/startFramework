@@ -1,0 +1,48 @@
+#home{
+    background-color: #1abc9c;
+    height: 100vh;
+    padding-top: 70px;
+
+}
+.box{
+    padding-top: 60px;
+ 
+}
+h2{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
+  
+}
+
+
+
+ h3{
+
+    position: relative;
+padding-bottom: 20px;
+ 
+}
+h3::after{
+    content: "";
+   width: 110px;   
+   position: absolute;
+    height: 5px;
+    left: 38%;
+    top: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+h3::before{
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 5px;
+    right: 37%;
+    top: 30%;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+ 

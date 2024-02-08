@@ -1,0 +1,87 @@
+
+
+<section id="contact" >
+
+    <div class="head text-center">
+<h2 class="fw-bolder fs-2 ">CONATCT SECTION</h2>
+<div class="icon mb-5">
+            <h3> <i class="fa-solid fa-star"></i></h3>
+          </div>
+    </div>
+ 
+
+<div class="container mt-5 cont">
+<!--  -->
+
+
+<span  [ngClass]="{
+    'showUser':userName.length>0 
+         }"
+         >userName: </span>
+            <input class="w-100 border border-0 border-bottom vipppp" [(ngModel)]="userName"  type="text" id="name" placeholder="UserName">
+
+        
+        
+
+
+
+            <!--  -->
+
+             
+        <h6 class="userAge"
+        [ngClass]="{
+            'showAge':userAge.length>0 
+            
+        }"
+        >userAge: </h6>
+        <input class=" w-100 border-0 border-bottom my-5 vipppp" [(ngModel)]="userAge"  type="text" id="age" placeholder="UserAge">
+        
+        
+        
+
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+        <h6 class="useremail"
+        [ngClass]="{
+            'showEmail':userEmail.length>0 
+            
+        }"
+        >userEmail: </h6>
+        <input class="w-100 border border-0 border-bottom mp-5 vipppp " [(ngModel)]="userEmail"  type="email" id="email" placeholder="UserEmail">
+     
+     
+     
+     
+
+
+
+
+        <h6 class="userpass "
+        [ngClass]="{
+            'showpass':userPass.length>0 
+            
+        }"
+        >userPassword: </h6>
+     
+        <input class="w-100 border border-0 border-bottom  vipppp mt-5" [(ngModel)]="userPass" type="password" id="pass" placeholder="UserPassword">
+    
+        <button class="btn btn-vip text-white mt-3">send messeage</button>
+</div>
+
+
+
+
+
+
+
+
+</section>

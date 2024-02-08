@@ -1,0 +1,139 @@
+#contact{
+    height: 100vh;
+
+}
+.head{
+    color:rgb(23, 33, 84) ;
+
+padding-top: 110px;
+}
+h3{
+align-items: center;
+text-align: center;
+    position: relative;
+/* padding-bottom: 20px; */
+ 
+}
+h3::after{
+    content: "";
+   width: 110px;   
+   position: absolute;
+    height: 5px;
+    left: 40%;
+    bottom: 40%;
+    
+    background-color:   rgb(23, 33, 84);
+}
+
+h3::before{
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 5px;
+    right: 40%;
+    bottom: 40%;
+    
+    background-color: rgb(23, 33, 84);
+}
+
+.container{
+    width: 50%;
+
+}
+
+.btn-vip{
+    background-color: rgb(15, 217, 150);
+}
+input{
+    position: relative;
+}
+
+#name{
+    position: relative;
+
+}
+span{
+opacity: 0;    
+      
+    position: absolute;
+
+top: 150px;
+transition: all 0.5s;
+}
+
+.showUser{
+    opacity: 1;
+    
+   
+    position: absolute;
+top: 200px;
+   color: rgb(15, 217, 150);
+  
+}
+
+/*  */
+
+#email{
+position: relative;
+}
+.useremail{
+    opacity: 0; 
+position:absolute;
+top: 320px;
+transition: all 0.5s;
+
+   
+}
+.showEmail{
+   
+      opacity: 1;
+      
+    position: absolute;
+
+top: 350px;
+
+color: rgb(15, 217, 150);
+}
+/* 
+ */
+
+#pass{
+    position: relative;
+}
+.userpass{
+    position: absolute;
+    top: 410px;
+opacity: 0;
+transition: all 0.5s;
+}
+
+.showpass{
+    position: absolute;
+    top:435px;
+    color: rgb(15, 217, 150);
+    opacity: 1;
+}
+
+
+
+
+.vipppp{
+    outline: none ;
+}
+
+#age{
+    position: relative;
+}
+.userAge{
+position: absolute;
+top: 250px;
+opacity: 0;
+transition: all 0.5s;
+color: rgb(15, 217, 150);
+}
+
+.showAge{
+    position: absolute;
+    top:290px ;
+    opacity: 1;
+}

@@ -1,0 +1,9 @@
+#notFound{
+    height: 100vh;
+    background-image: url('../../assets/pexels-vie-studio-4439425.jpg');
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    padding-top: 300px;
+}
